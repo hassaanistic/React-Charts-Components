@@ -36,7 +36,7 @@ const RadarDatasetChart = () => {
     };
     return (
         <>
-            <div>RadarDatasetChart</div>
+            <h1>RadarDataset Chart</h1>
             <Radar data={data} height={300}
                 width={500} />
         </>

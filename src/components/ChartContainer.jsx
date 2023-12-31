@@ -30,7 +30,7 @@ const ChartContainer = () => {
       },
       title: {
         display: true,
-        text: 'Chart.js Bar Chart',
+        text: 'Bar Chart With Multiple datasets',
       },
     },
   };

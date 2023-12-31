@@ -67,7 +67,7 @@ const PieChart = () => {
 
     return (
         <>
-            <div>PieChart</div>
+            <h1>PieChart</h1>
             <Pie data={data} height={300}
                 width={500} />
         </>

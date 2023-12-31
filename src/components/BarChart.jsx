@@ -73,7 +73,7 @@ const BarChart = () => {
 
     return (
         <>
-            <div>BarChart</div>
+            <h1>BarChart</h1>
             <div style={chartStyle}>
                 <Bar
                     options={options}

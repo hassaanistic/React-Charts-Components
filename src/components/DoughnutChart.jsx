@@ -23,7 +23,7 @@ const DoughnutChart = () => {
     return (
 
         <>
-            <div>DoughnutChart</div>
+            <h1>DoughnutChart</h1>
             <Doughnut data={data} height={300}
                 width={500} />
         </>

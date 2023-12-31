@@ -8,14 +8,11 @@ import PolarAreaChart from './components/PolarAreaChart'
 import RadarDatasetChart from './components/RadarDatasetChart'
 
 function App() {
-  const sizeStr = " <Bar data={data} height={300} width={ 500}/> "
   return (
     <>
-      <h2>Size is in the BAR chart </h2>
-      <p>Height and width pass in the chart Component</p>
-      <p>{sizeStr}</p>
-      <ChartContainer />
+      <h2>ALL Types of Charts</h2>    
       <BarChart />
+      <ChartContainer />
       <LineChart />
       <PieChart />
       <DoughnutChart />

@@ -46,8 +46,7 @@ const LineChart = () => {
 
     return (
         <div>
-            <h2 style={{ color: "black" }}>Hello</h2>
-            {/* <Line  data={data} /> */}
+            <h1>Line Chart</h1>
             <Line ref={chartRef} data={data}
                 height={300}
                 width={500} />

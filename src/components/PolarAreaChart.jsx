@@ -25,7 +25,7 @@ const PolarAreaChart = () => {
     };
     return (
         <>
-            <div>PolarArea</div>
+            <h1>PolarArea</h1>
             <PolarArea data={data} height={300}
                 width={500} />
         </>
